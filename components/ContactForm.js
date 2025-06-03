@@ -19,6 +19,7 @@ const ContactForm = () => {
 
   return (
     <section 
+      id="contactform"
       className="py-16 bg-gray-100 contactform-background" 
       aria-label="Contact Us section"
     >

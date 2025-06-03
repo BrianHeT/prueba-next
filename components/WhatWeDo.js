@@ -19,7 +19,7 @@ const services = [
 
 export default function WhatWeDo() {
   return (
-    <section id="services" className="py-20 ">
+    <section id="services" className="py-20 " >
       <div className="max-w-7xl mx-auto px-4 text-left">
         <h2 className="text-4xl font-bold mb-10 text-gray-800">What WeDo</h2>
 
