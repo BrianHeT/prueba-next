@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-transparent fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-gray-800">FasterUI</div>
+        <div className="text-2xl font-bold text-gray-800 hidden md:flex ">FasterUI</div>
         <ul className="hidden md:flex bg-white/60 backdrop-blur-md rounded-lg px-6 py-4 space-x-6 text-gray-700 font-medium shadow">
           <li>
             <a href="#home" className="hover:text-indigo-500">
