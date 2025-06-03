@@ -8,21 +8,21 @@ const faqData = [
   },
   {
     question: "What services do you offer?",
-    answer: "lorem",
+    answer: "You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.",
   },
   {
     question: "Do you provide website maintenance services?",
     answer:
-      "lorem",
+      "You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.",
   },
   {
     question: " How long does it take to design and develop a website?",
     answer:
-      "lorem",
+      "You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.",
   },
   {
     question: "Do you require a deposit for projects?",
-    answer: "lorem",
+    answer: "You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.",
   },
 ];
 
@@ -57,13 +57,13 @@ const FAQ = () => {
             <div key={index} className="bg-white rounded-2xl shadow-md"> 
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none hover:bg-gray-50 transition"
+                className="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none hover:bg-gray-100 transition"
               >
                 <span className="text-lg font-medium text-gray-900">{item.question}</span>
                 <span className="text-2xl text-indigo-600">{openIndex === index ? "−" : "+"}</span>
               </button>
               {openIndex === index && (
-                <div className="px-6 pb-4 text-gray-700 text-lg leading-relaxed bg-white border-t"> 
+                <div className="px-6 pb-4 text-gray-700 text-lg leading-relaxed bg-white "> 
                   {item.answer}
                 </div>
               )}

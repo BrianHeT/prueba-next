@@ -1,18 +1,18 @@
 import React from 'react';
 
 const services = [
-  { title: "Web Design", desc: "Desde el concepto hasta el lanzamiento, creamos sitios web impresionantes y centrados en el usuario que elevan tu marca y atraen a tu audiencia." },
-  { title: "UI/UX Design", desc: "Desde el concepto hasta el lanzamiento, creamos sitios web impresionantes y centrados en el usuario que elevan tu marca y atraen a tu audiencia." },
-  { title: "Responsive Design", desc: "Desde el concepto hasta el lanzamiento, creamos sitios web impresionantes y centrados en el usuario que elevan tu marca y atraen a tu audiencia." },
-  { title: "Custom Development", desc: "Desde el concepto hasta el lanzamiento, creamos sitios web impresionantes y centrados en el usuario que elevan tu marca y atraen a tu audiencia." },
+  { title: "Web Design", desc: "From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience." },
+  { title: "UI/UX Design", desc: "From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience." },
+  { title: "Responsive Design", desc: "From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience." },
+  { title: "Custom Development", desc: "From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience." },
   {
     title: "Webflow",
-    desc: "Aprovechamos el poder de Webflow para construir sitios web visualmente impresionantes y altamente funcionales sin escribir una sola línea de código.",
+    desc: "From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.",
     imageUrl: "/images/webflow.png" 
   },
   {
     title: "E-commerce Solutions",
-    desc: "Desarrollamos soluciones de comercio electrónico robustas y seguras que impulsan las ventas y mejoran la experiencia de compra en línea.",
+    desc: "From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.",
     imageUrl: "/images/customDev.png" 
   },
 ];
