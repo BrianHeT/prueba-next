@@ -3,7 +3,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <section
-      className="py-16 bg-gray-100"
+      className="py-16 "
       aria-label="Pricing and Services section"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-12">
@@ -55,7 +55,6 @@ const Pricing = () => {
                 <span className="text-5xl font-extrabold text-gray-900">$3,250</span>
                 <span className="text-2xl font-semibold text-gray-600">/mo</span>
                 </div>
-                {/* Opcional: una flecha a la derecha como en el diseño. Puedes usar un SVG */}
                 <svg className="w-6 h-6 text-indigo-600 ml-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </div>
           </div>

@@ -1,26 +1,26 @@
 export default function Navbar() {
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+    <nav className="w-full bg-transparent fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold text-gray-800">FasterUI</div>
-        <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <ul className="hidden md:flex bg-white/60 backdrop-blur-md rounded-lg px-6 py-4 space-x-6 text-gray-700 font-medium shadow">
           <li>
-            <a href="#home" className="hover:text-blue-500">
+            <a href="#home" className="hover:text-indigo-500">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-blue-500">
+            <a href="#about" className="hover:text-indigo-500">
               About
             </a>
           </li>
           <li>
-            <a href="#how" className="hover:text-blue-500">
+            <a href="#how" className="hover:text-indigo-500">
               How it works
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-blue-500">
+            <a href="#services" className="hover:text-indigo-500">
               Services
             </a>
           </li>

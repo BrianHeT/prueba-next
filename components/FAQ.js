@@ -31,7 +31,7 @@ const FAQ = () => {
 
   const toggleFAQ = (index) => {
     if (openIndex === index) {
-      setOpenIndex(null); // close if already open
+      setOpenIndex(null); 
     } else {
       setOpenIndex(index);
     }
@@ -39,25 +39,22 @@ const FAQ = () => {
 
   return (
     <section 
-      className="py-16 bg-gray-100" // Añadido el fondo de la sección
+      className="py-16 " 
       aria-label="Frequently Asked Questions section"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex lg:flex-row flex-col items-start gap-12"> {/* Contenedor general consistente */}
-        {/* Título alineado a la izquierda */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex lg:flex-row flex-col items-start gap-12"> 
+        
         <div className="lg:w-1/4 mb-8 lg:mb-0"> 
-          <h2 className="text-4xl font-extrabold text-gray-900 mb-4 text-left"> {/* Clase de título consistente */}
+          <h2 className="text-4xl font-extrabold text-gray-900 mb-4 text-left"> 
             Frequently Asked <br /> Questions
           </h2>
-          {/* Puedes añadir un texto introductorio aquí si lo deseas, similar a la sección de pricing */}
-          {/* <p className="text-gray-700 text-lg leading-relaxed">
-               Here are some common questions we get. Feel free to reach out if you have more.
-          </p> */}
+          
         </div>
 
         {/* Preguntas a la derecha */}
         <div className="lg:w-3/4 space-y-4">
           {faqData.map((item, index) => (
-            <div key={index} className="bg-white rounded-2xl shadow-md"> {/* Fondo, bordes redondeados y sombra de card */}
+            <div key={index} className="bg-white rounded-2xl shadow-md"> 
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none hover:bg-gray-50 transition"
@@ -66,7 +63,7 @@ const FAQ = () => {
                 <span className="text-2xl text-indigo-600">{openIndex === index ? "−" : "+"}</span>
               </button>
               {openIndex === index && (
-                <div className="px-6 pb-4 text-gray-700 text-lg leading-relaxed bg-white border-t"> {/* Texto consistente */}
+                <div className="px-6 pb-4 text-gray-700 text-lg leading-relaxed bg-white border-t"> 
                   {item.answer}
                 </div>
               )}

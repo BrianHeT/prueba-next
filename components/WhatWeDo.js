@@ -19,9 +19,9 @@ const services = [
 
 export default function WhatWeDo() {
   return (
-    <section id="services" className="py-20 bg-gray-100">
-      <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold mb-12 text-gray-800">What WeDo</h2>
+    <section id="services" className="py-20 ">
+      <div className="max-w-7xl mx-auto px-4 text-left">
+        <h2 className="text-4xl font-bold mb-10 text-gray-800">What WeDo</h2>
 
         
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-flow-dense">

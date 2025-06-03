@@ -19,7 +19,7 @@ const ContactForm = () => {
 
   return (
     <section 
-      className="py-16 bg-gray-100" 
+      className="py-16 bg-gray-100 contactform-background" 
       aria-label="Contact Us section"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
@@ -45,7 +45,7 @@ const ContactForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500" 
+              className="border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-500" 
             />
           </div>
 
@@ -62,7 +62,7 @@ const ContactForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-500"
             />
           </div>
 
@@ -79,16 +79,16 @@ const ContactForm = () => {
               onChange={handleChange}
               rows="5"
               required
-              className="border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
+              className="border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none text-gray-500"
             ></textarea>
           </div>
 
           
           <button
             type="submit"
-            className="bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition w-full" // rounded-lg y w-full para el botón
+            className="bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition w-full" 
           >
-            Send Message
+            Get it Touch
           </button>
         </form>
       </div>
